@@ -13,7 +13,7 @@ body {
   
 }
 .con{
-    width: 390px;
+    width: 350px;
     margin: 0 auto;
     
 
@@ -21,7 +21,7 @@ body {
 .fon{
 
 background-repeat: no-repeat;
-     width: 390px;
+     width: 300px;
      padding: 50px;
      border-radius: 25px;
      background-color: white;
