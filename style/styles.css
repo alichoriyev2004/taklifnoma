@@ -69,9 +69,13 @@ transition: 0.5s;}
     border-color: black;
     width: 150px;
     height: 25px;
-    
+    margin-bottom: 50px;
+    margin-top: 10px;
     font-family: "Great Vibes";
     text-align: center;
 }
 .name:hover{scale: 1.2;
 transition: 0.5s;}
+.lan{
+    font-size: 12px;
+}
