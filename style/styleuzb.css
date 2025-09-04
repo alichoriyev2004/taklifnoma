@@ -49,4 +49,24 @@ background-repeat: no-repeat;
     font-size: 23px;
 }
 .tak{font-size: 35px;
-margin-bottom: 20px;}
+}
+.name{display: inline;}
+button{
+    
+    border-radius: 25px;
+    border: 1px solid;
+    border-color: #40041e;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: "Great Vibes";
+    text-align: center;
+background-color: white;
+
+
+}
+button:hover{scale: 1.2;
+    background-color: #40041e;
+    color: white;
+transition: 0.5s;}

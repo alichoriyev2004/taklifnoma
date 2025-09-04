@@ -21,3 +21,10 @@ function updateCountdown() {
 
 // Vaqtni yangilash har 1 soniyada bir marta
 setInterval(updateCountdown, 1000);
+
+  window.onload = function() {
+            var storedValue = localStorage.getItem("inputValue"); // Saqlangan qiymatni olish
+            if (storedValue) {
+                document.getElementById("myDiv").innerText = storedValue; // Divga qiymatni joylash
+            }
+        }

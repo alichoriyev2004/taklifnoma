@@ -14,14 +14,18 @@
     <div class="con fon">
         <div class="tak lan">Исмингизни киритинг</div>
         <div class="tak lan">Введите ваше имя</div>
-        <div class="input"><input class="name" type="text" placeholder="𓆩♡𓆪"></div>
+        <div class="input"><input class="name" id="myInput" type="text" placeholder="𓆩♡𓆪"></div>
        
         
         <div class="tak">Таклифномa</div>
-        <div class="uzb"><a href="./html/uzb.html">Узбек тили</a></div>
+        <div class="uzb" onclick="saveValue()" ><a href="./html/uzb.html">Узбек тили</a></div>
       
         <div class="uzb"><a href="./html/rus.html">Русский язык</a></div>
         <div class="tak">Приглашение</div>
     </div>
+    <script>  function saveValue() {
+            var inputVal = document.getElementById("myInput").value;
+            localStorage.setItem("inputValue", inputVal);  // input qiymatini localStorage'ga saqlash
+        }</script>
 </body>
 </html>
