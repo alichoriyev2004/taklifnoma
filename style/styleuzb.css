@@ -46,7 +46,7 @@ button{
     border-color: #40041e;
     width: 150px;
     height: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-top: 10px;
     font-family: "Great Vibes";
     text-align: center;
@@ -60,3 +60,4 @@ button:hover{scale: 1.2;
 transition: 0.5s;}
 
 a{text-decoration: none;}
+a:hover{color: white;}
