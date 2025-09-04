@@ -41,17 +41,17 @@ background-repeat: no-repeat;
 }
 .name{display: inline;}
 button{
-    
+    color: white;
     border-radius: 25px;
     border: 1px solid;
-    border-color: #40041e;
+    /* border-color: #40041e; */
     width: 150px;
     height: 25px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-family: "Great Vibes";
     text-align: center;
-background-color: white;
+background-color: #40041e;
 
 
 }
