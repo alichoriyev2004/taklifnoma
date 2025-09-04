@@ -1,0 +1,52 @@
+/* .invitation-container {
+   
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 50%;
+    margin: 0 auto;
+}
+#time-left {
+    font-size: 36px;
+    font-weight: bold;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#40041e;
+}
+body {
+    font-family: "Great Vibes";
+    background-color: #40041e ;
+    text-align: center;
+    padding: 20px;
+  
+}
+.con{
+    width: 350px;
+    margin: 0 auto;
+    
+
+}
+.fon{
+
+background-repeat: no-repeat;
+     width: 300px;
+     padding: 50px;
+     border-radius: 25px;
+     background-color: white;
+     
+    
+}
+
+.p{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.i{
+    font-size: 23px;
+}
+.tak{font-size: 35px;
+margin-bottom: 20px;}
