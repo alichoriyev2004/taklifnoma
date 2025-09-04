@@ -1,16 +1,4 @@
-/* .invitation-container {
-   
-    color: white;
-    padding: 30px;
-    border-radius: 10px;
-    font-size: 24px;
-    width: 50%;
-    margin: 0 auto;
-}
-#time-left {
-    font-size: 36px;
-    font-weight: bold;
-} */
+
 * {
     margin: 0;
     padding: 0;
@@ -70,3 +58,5 @@ button:hover{scale: 1.2;
     background-color: #40041e;
     color: white;
 transition: 0.5s;}
+
+a{text-decoration: none;}
